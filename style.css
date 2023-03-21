@@ -12,10 +12,10 @@
  }
 
  :root {
-   --main-color: #033a80;
+   --main-color: #0000b7;
    --bg-color: #fff;
    --text-color: #0f0c27;
-   --hover: hsl(260, 100%, 51%);
+   --hover: #bb1515;
    --big-font: 3.2rem;
    --medium-font: 1.8rem;
    --p-font: 0.941rem;
@@ -27,7 +27,7 @@
 
  body.active {
    --text-color: #fff;
-   --bg-color: #0f0c27;
+   --bg-color: #0a081f;
  }
 
  body {
@@ -50,7 +50,7 @@
 
  .heading span {
    font-size: var(--p-font);
-   color: rgb(2, 166, 70);
+   color: #0000b7;
  }
 
  header {
@@ -82,7 +82,7 @@
  .logo span {
    font-size: 1.61rem;
    font-weight: 600;
-   color: crimson;
+   color: #bb1515;
  }
 
  .navbar {
@@ -113,21 +113,24 @@
  }
 
  .home {
-   position: relative;
-   width: 100%;
-   min-height: 100vh;
-   display: grid;
-   grid-template-columns: 0.2fr 1fr 1fr;
-   align-items: center;
-   gap: 1rem;
- }
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+  margin-top: -80px;
+}
 
  .home-img {
    order: 3;
+  
  }
 
  .home-img img {
    width: 100%;
+   margin-top: 150px;
  }
 
  .home-text span {
@@ -289,18 +292,18 @@
 
  .services-box {
    padding: 20px;
-   width: 260px;
+   width: 240px;
    display: flex;
    flex-direction: column;
    align-items: center;
    text-align: center;
    border-radius: 0.5rem;
-   border-bottom: 2px solid var(--main-color);
-   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+   border-bottom: 2px solid #bb1515;
+   box-shadow: 0 2px 7px #0000b7;
  }
 
  .services-box:hover {
-   background-color: #02225a;
+   background-color: #952727;
  }
 
  .services-box h3 {
@@ -324,7 +327,7 @@
  }
 
  .services-box a {
-   color: var(--main-color);
+   color: #bb1515;
    font-size: var(--p-font);
    font-weight: 500;
  }
@@ -370,7 +373,7 @@
  .contact-button {
    width: 160px;
    cursor: pointer;
-   background: #2768d9;
+   background: #0000b7;
    color: #fff;
    justify-content: center;
    text-transform: uppercase;
@@ -409,7 +412,7 @@
 
  .copyright {
    padding: 20px;
-   background: var(--main-color);
+   background: #0a081f;
    text-align: center;
    color: #fff;
  }
