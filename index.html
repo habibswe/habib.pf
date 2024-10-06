@@ -207,10 +207,83 @@
 <!-- Services Section Start -->
 
 
-
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Section</title>
+    <!-- Boxicons CDN -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        /* Basic styling for the section */
+        .services {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .services-content {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .services-box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 200px;
+            border-radius: 10px;
+        }
+        i {
+            font-size: 48px;
+            color: #000;
+        }
+        h3 {
+            margin-top: 15px;
+            font-size: 24px;
+        }
+        .dropdown-content {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
 
 <section class="services" id="services">
+    <div class="heading">
+        <h2>Services</h2>
+        <span>Our Services</span>
+    </div>
+    <div class="services-content">
+        <div class="services-box">
+            <i class='bx bx-play-circle'></i>
+            <h3>Test Automation</h3>
+            <div class="dropdown-content">
+                <p>Automating test cases using frameworks like Selenium, Cypress, or Appium to improve testing efficiency and coverage.</p>
+            </div>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-list-check'></i>
+            <h3>Manual Functional Testing</h3>
+            <div class="dropdown-content">
+                <p>Performing thorough functional testing across web, mobile, and desktop platforms to ensure software behaves as expected.</p>
+            </div>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-bar-chart-alt-2'></i>
+            <h3>Performance Testing</h3>
+            <div class="dropdown-content">
+                <p>Conducting load and stress testing using tools like JMeter to measure system performance under various conditions.</p>
+            </div>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-transfer-alt'></i>
+            <h3>API Testing</h3>
+            <div class="dropdown-content">
+                <p>Testing APIs for functionality, security, and performance using tools like Postman and Rest Assured, ensuring seamless backend operations.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- <section class="services" id="services">
     <div class="heading">
         <h2>Services</h2>
         <span>Our Services</span>
@@ -249,7 +322,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Services Section End -->
 
