@@ -12,7 +12,8 @@
  }
 
  :root {
-   --main-color: #0000b7;
+   --main-color: #3b5a9b;
+/*   --main-color: #0000b7; */
    --bg-color: #fff;
    --text-color: #0f0c27;
    --hover: #bb1515;
@@ -50,7 +51,8 @@
 
  .heading span {
    font-size: var(--p-font);
-   color: #0000b7;
+   color: #3b5a9b;
+/*   color: #0000b7; */
  }
 
  header {
@@ -381,7 +383,8 @@
    text-align: center;
    border-radius: 0.5rem;
    border-bottom: 2px solid #bb1515;
-   box-shadow: 0 2px 7px #0000b7;
+   box-shadow: 0 2px 7px #3b5a9b;
+/*   box-shadow: 0 2px 7px #0000b7; */
  }
 
  .services-box:hover {
@@ -455,7 +458,8 @@
  .contact-button {
    width: 50%;
    cursor: pointer;
-   background: #0000b7;
+   background: #3b5a9b;
+/*   background: #0000b7; */
    color: #fff;
    justify-content: center;
    text-transform: uppercase;
@@ -980,7 +984,8 @@
                   background-color: var(--bg-color);
                   border-radius: 0.5rem;
                   margin-top: 0.5rem;
-                  box-shadow: 0 2px 7px #0000b7;
+                  box-shadow: 0 2px 7px #3b5a9b;
+/*                   box-shadow: 0 2px 7px #0000b7; */
                 }
                 
 
